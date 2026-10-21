@@ -1,0 +1,58 @@
+<!DOCTYPE html><html lang='zh-CN'><head><meta charset='UTF-8'><meta name='viewport' content='width=device-width, initial-scale=1.0'><title>新品冲刺池</title><link rel='stylesheet' href='styles.css'></head><body>
+<div class='topbar'>
+  <div class='brand'><div class='brand-badge'>⚡</div><div>量子加速器</div></div>
+  <div class='menu'><div>总览</div><div>我的指令</div><div>统一授权</div><div class='active'>产品管理</div><div>广告系统</div><div>发票管理</div><div>环保系统</div></div>
+  <div class='top-actions'><a class='btn' href='todo-list.html'>待办列表</a><a class='ghost-btn' href='pricing-sprint.html'>冲刺定价页</a></div>
+</div>
+<div class='page'>
+  <div class='page-title'>新品冲刺池</div>
+  <div class='page-sub'>独立冲刺商品列表，展示产线最关心的阶段、价格、销量与库存数据。第一版本仅支持 US 区域。</div>
+  <div class='toolbar'>
+    <div class='chips'>
+      <div class='chip active'>全部</div>
+      <div class='chip'>未开始 (18)</div>
+      <div class='chip'>冲刺中 (52)</div>
+      <div class='chip'>已完结 (21)</div>
+    </div>
+    <input class='input' placeholder='搜索 SKU / ASIN'>
+    <select class='select'><option>US</option></select>
+    <select class='select'><option>全部产线</option></select>
+    <select class='select'><option>全部运营</option></select>
+    <select class='select'><option>全部动作</option></select>
+    <button class='btn'>查询</button>
+  </div>
+
+  <div class='card table-wrap'>
+    <table>
+      <thead>
+        <tr>
+          <th>图片</th><th>SKU</th><th>国家</th><th>运营负责人</th><th>冲刺状态</th><th>冲刺天数</th><th>当前阶段/动作</th><th>当前AM售价</th><th>基准竞品价</th><th>AM累计销量</th><th>ERP可用库存</th><th>可售月数</th><th>操作</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>🛋️</td><td><a href='pricing-sprint.html'><b>TS10341BL-18</b></a></td><td>🇺🇸 US</td><td>周则瑶</td><td><span class='badge gray'>未开始</span></td><td>-</td><td><span class='badge blue'>待初始定价</span></td><td>-</td><td>$90.00</td><td>0</td><td>420</td><td>2.5</td>
+          <td><div class='flex gap8'><a class='link-btn danger' href='new-sprint-pool-remove.html'>移除</a></div></td>
+        </tr>
+        <tr>
+          <td>🔥</td><td><a href='pricing-sprint.html'><b>FP10887US-WH</b></a></td><td>🇺🇸 US</td><td>罗美蝶</td><td><span class='badge orange'>冲刺中</span></td><td>21/60</td><td><span class='badge red'>D21 · 待涨价5%</span></td><td>$90.00</td><td>$87.00</td><td>32</td><td>420</td><td>2.5</td>
+          <td><div class='flex gap8'><button class='link-btn'>详情</button><a class='link-btn primary' href='pricing-sprint.html'>去处理</a><a class='link-btn danger' href='new-sprint-pool-remove.html'>移除</a></div></td>
+        </tr>
+        <tr>
+          <td>🏕️</td><td><a href='pricing-sprint.html'><b>CM25631US-24</b></a></td><td>🇺🇸 US</td><td>胡智辉</td><td><span class='badge orange'>冲刺中</span></td><td>28/60</td><td><span class='badge red'>D28 · 待撤销涨价</span></td><td>$94.50</td><td>$95.00</td><td>35</td><td>180</td><td>1.2</td>
+          <td><div class='flex gap8'><button class='link-btn'>详情</button><a class='link-btn primary' href='pricing-sprint.html'>去处理</a><a class='link-btn danger' href='new-sprint-pool-remove.html'>移除</a></div></td>
+        </tr>
+        <tr>
+          <td>🪑</td><td><a href='pricing-sprint.html'><b>HW54070CL</b></a></td><td>🇺🇸 US</td><td>姚晨铭</td><td><span class='badge orange'>冲刺中</span></td><td>17/60</td><td><span class='badge blue'>竞品降价提醒</span></td><td>$79.98</td><td>$95.00</td><td>22</td><td>600</td><td>3.0</td>
+          <td><div class='flex gap8'><button class='link-btn'>详情</button><a class='link-btn primary' href='pricing-sprint.html'>去处理</a><a class='link-btn danger' href='new-sprint-pool-remove.html'>移除</a></div></td>
+        </tr>
+        <tr>
+          <td>🧸</td><td><a href='pricing-finished.html'><b>BE10095HS</b></a></td><td>🇺🇸 US</td><td>胡智辉</td><td><span class='badge green'>已完结</span></td><td>60/60</td><td><span class='badge green'>正常到期</span></td><td>$95.24</td><td>$88.50</td><td>118</td><td>120</td><td>0.8</td>
+          <td><div class='flex gap8'><a class='link-btn' href='pricing-finished.html'>查看记录</a></div></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class='footer-note'>说明：列表中的「当前AM售价」指商品当前售卖单价；「基准竞品价」为已选定基准 ASIN 的最近有效价格；「去处理」仅在存在待处理操作时出现。</div>
+</div>
+</body></html>
